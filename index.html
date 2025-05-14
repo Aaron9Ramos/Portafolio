@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio | Desarrollador Web</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+    header { background: #222; color: #fff; padding: 1rem 2rem; }
+    nav { display: flex; justify-content: space-between; align-items: center; }
+    nav ul { list-style: none; display: flex; gap: 1rem; }
+    nav a { color: #fff; text-decoration: none; }
+    .hero { background: #007acc; color: #fff; padding: 4rem 2rem; text-align: center; }
+    section { padding: 2rem; max-width: 800px; margin: auto; }
+    .proyecto { background: #fff; padding: 1rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    form { display: flex; flex-direction: column; gap: 1rem; }
+    input, textarea { padding: 0.75rem; border: 1px solid #ccc; border-radius: 4px; }
+    button { padding: 0.75rem; background: #007acc; color: #fff; border: none; cursor: pointer; border-radius: 4px; }
+    footer { text-align: center; padding: 1rem; background: #222; color: #fff; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Nombre del Programador</h1>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h2>Hola, soy Desarrollador Web</h2>
+    <p>Creo soluciones digitales funcionales y visualmente atractivas.</p>
+  </section>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Soy un desarrollador web con experiencia en HTML, CSS, JavaScript, y frameworks como Laravel y React. Me apasiona crear experiencias web intuitivas y responsivas.</p>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>PHP, Laravel</li>
+      <li>React, Vue.js</li>
+      <li>Git y GitHub</li>
+      <li>MySQL, PostgreSQL</li>
+    </ul>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="proyecto">
+      <h3>Sitio Web Empresarial</h3>
+      <p>Desarrollado en Laravel, con panel de administración y diseño responsivo. <a href="#">Ver más</a></p>
+    </div>
+    <div class="proyecto">
+      <h3>Aplicación de Tareas</h3>
+      <p>Aplicación SPA usando React y consumo de API REST. <a href="#">Ver más</a></p>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Nombre del Programador. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    // Puedes agregar interactividad con JavaScript aquí
+    console.log("Portafolio listo para personalizar");
+  </script>
+</body>
+</html>
