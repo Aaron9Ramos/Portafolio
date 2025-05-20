@@ -24,12 +24,12 @@ nav a {
   color: #fff;
   text-decoration: none;
 }
-.hero {
+/* .hero {
   background: #007acc;
   color: #fff;
   padding: 4rem 2rem;
   text-align: center;
-}
+} */
 section {
   padding: 2rem;
   max-width: 800px;
